@@ -1,0 +1,86 @@
+/*
+ Author : YASH VINAYVANSHI
+*/
+
+/* general styling */
+*{
+ margin:0;
+ padding:0;
+ font-family: Arial, Helvetica, sans-serif;
+}
+
+.wrapper{
+ /*border:1px solid black;*/
+ padding:1%;
+ width:80%;
+ margin:0 auto;
+}
+.wrapper1
+ {
+ padding:1%;
+ width:80%;
+ margin:0 auto;
+ display:flex;
+ }
+
+/* Code reusability */
+.text-center
+{
+ text-align: center;
+}
+/* CSS for header */
+.head{
+ background-color: lightblue;
+ color:darkblue;
+}
+/* CSS for menu */
+.menu{
+ background-color:lightblue;
+ border-bottom: 3px solid darkblue;
+}
+.menu ul {
+ list-style-type: none;
+}
+.menu ul li{
+ display:inline;
+ padding:1%;
+}
+/* now we target anchor tag */
+.menu ul li a{
+ text-decoration:none;
+ font:bold;
+ color:darkblue;
+}
+.menu ul li a:hover{
+ color:blue;
+}
+/* CSS for main content*/
+.main-content{
+ /*margin : 1% 0;  top, left*/
+ margin : 0;
+ background-color: #f2f1f6;
+}
+
+.table-30{
+width:100%;
+}
+/* CSS for footer */
+.footer{
+ border-top: 3px solid darkblue;
+ background-color: lightblue;
+ color :darkblue;
+}
+.change-password-form{
+ background-color: lightblue;
+border : 1px solid darkblue;
+width:30%;
+margin:5% auto; 
+padding:2%;
+}
+.edit-profile-form{
+ background-color: lightblue;
+border : 1px solid darkblue;
+width:30%;
+margin:5% auto; 
+padding:2%;
+}

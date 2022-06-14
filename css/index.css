@@ -1,0 +1,65 @@
+/*
+ Author : YASH VINAYVANSHI
+*/
+
+/* general styling */
+*{
+ margin:0;
+ padding:0;
+ font-family: Arial, Helvetica, sans-serif;
+}
+
+.wrapper{
+ /*border:1px solid black;*/
+ padding:1%;
+ width:80%;
+ margin:0 auto;
+}
+
+/* Code reusability */
+.text-center
+{
+ text-align: center;
+}
+/* CSS for header */
+.head{
+ background-color: grey;
+ color: white;
+}
+/* CSS for menu */
+.menu{
+ background-color: grey;
+ border-bottom: 3px solid black;
+}
+.menu ul {
+ list-style-type: none;
+}
+.menu ul li{
+ display:inline;
+ padding:1%;
+}
+/* now we target anchor tag */
+.menu ul li a{
+ text-decoration:none;
+ font:bold;
+ color:white;
+}
+.menu ul li a:hover{
+ color: black;
+}
+/* CSS for main content*/
+.main-content{
+ /*margin : 1% 0;  top, left*/
+ margin : 0;
+ background-color: #f2f1f6;
+}
+
+.table-30{
+width:20%;
+}
+/* CSS for footer */
+.footer{
+ border-top: 3px solid black;
+ background-color: grey;
+ color : white;
+}
